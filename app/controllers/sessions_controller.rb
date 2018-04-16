@@ -13,7 +13,7 @@ class SessionsController < ApplicationController
 
   @user = user
 
-  redirect_to controller: 'welcome', action: 'home'
+  redirect_to controller: 'static', action: 'index'
 end
 
 def destroy
